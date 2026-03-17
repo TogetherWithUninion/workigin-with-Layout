@@ -1,7 +1,7 @@
-import javax.swing.*;
-import java.awt.*;
+ import javax.swing.*;
+ import java.awt.*;
 
-public class BorderLayoutDemo {
+ public class BorderLayoutDemo {
     JButton ButtonOne;
     JButton ButtonTwo;
     JButton ButtonThree;
@@ -12,10 +12,10 @@ public class BorderLayoutDemo {
     }
 
     public JFrame CreateBorderFrame(){
-        JFrame Borderframe = new JFrame("BorderLayout Demo");
-        Borderframe.setSize(600, 400);
-        Borderframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Borderframe.setLayout(new BorderLayout());
+//        JFrame Borderframe = new JFrame("BorderLayout Demo");
+//        Borderframe.setSize(600, 400);
+//        Borderframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        Borderframe.setLayout(new BorderLayout());
 
         JLabel titleLabel = new JLabel("Application Title", JLabel.CENTER);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
@@ -45,4 +45,4 @@ public class BorderLayoutDemo {
         Borderframe.setVisible(true);
         return Borderframe;
     }
-}
+ }
