@@ -2,6 +2,7 @@
  import java.awt.*;
 
  public class BorderLayoutDemo {
+  
     JButton ButtonOne;
     JButton ButtonTwo;
     JButton ButtonThree;
@@ -17,7 +18,7 @@
 //        Borderframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //        Borderframe.setLayout(new BorderLayout());
 
-        JLabel titleLabel = new JLabel("Application Title", JLabel.CENTER);
+        JLabel titleLabel = new JLabel("main Title", JLabel.CENTER);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
         Borderframe.add(titleLabel, BorderLayout.NORTH);
 
